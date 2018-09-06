@@ -155,12 +155,14 @@ function saveData() {
         donor_name.find("strong").html(first_name + ' ' + last_name);
         donor_type.find("strong").html(blood_type);
         // Open the donor info div for this marker
+        donor_info.show();
         donorwindow.open(map, marker);
 
         // Add click listener for this marker
         marker.addListener('click', function () {
             donor_name.find("strong").html(first_name + ' ' + last_name);
             donor_type.find("strong").html(blood_type);
+            donor_info.show();
             donorwindow.open(map, marker);
         });
 
