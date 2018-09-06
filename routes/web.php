@@ -16,6 +16,6 @@ Route::get('/', [
     "uses" => "WebController@index"
 ]);
 
-Route::post("save-data", "webController@saveData");
+Route::post("save-data", "WebController@saveData");
 
-Route::get("get-donors/{lat?}/{lng?}", "webController@getDonors");
+Route::get("get-donors/{lat?}/{lng?}", "WebController@getDonors");
