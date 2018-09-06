@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map {
+    height: 100%;
+}
+body > div {
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+}
+div#form, div#info, div#message {
+    display: none;
+}
+div#info {
+    padding: 10px;
+}
+div#name {
+    margin-bottom: 10px;
+}
